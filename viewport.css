@@ -1,0 +1,485 @@
+/* extra large size */
+
+@media (min-width: 1920px){
+
+  /* -- display -- */
+
+  [mod-if-screen-xl~="show"]{
+    display: block !important;
+  }
+  [mod-if-screen-xl~="display-block"]{
+    display: block;
+  }
+  [mod-if-screen-xl~="hide"]{
+    display: none !important;
+  }
+  [mod-if-screen-xl~="display-inline"]{
+    display: inline;
+  }
+  [mod-if-screen-xl~="display-inline-block"]{
+    display: inline-block;
+  }
+  [mod-if-screen-xl~="display-list-item"]{
+    display: list-item;
+  }
+  [mod-if-screen-xl~="display-run-in"]{
+    display: run-in;
+  }
+  [mod-if-screen-xl~="display-flex"]{
+    display: flex;
+  }
+  [mod-if-screen-xl~="display-inline-flex"]{
+    display: inline-flex;
+  }
+  [mod-if-screen-xl~="display-flex-center"]{
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  [mod-if-screen-xl~="display-table"]{
+    display: table;
+  }
+  [mod-if-screen-xl~="display-inline-table"]{
+    display: inline-table;
+  }
+  [mod-if-screen-xl~="display-table-caption"]{
+    display: table-caption;
+  }
+  [mod-if-screen-xl~="display-table-column-group"]{
+    display: table-column-group;
+  }
+  [mod-if-screen-xl~="display-table-header-group"]{
+    display: table-header-group;
+  }
+  [mod-if-screen-xl~="display-table-footer-group"]{
+    display: table-footer-group;
+  }
+  [mod-if-screen-xl~="display-table-row-group"]{
+    display: table-row-group;
+  }
+  [mod-if-screen-xl~="display-table-column"]{
+    display: table-column;
+  }
+  [mod-if-screen-xl~="display-table-row"]{
+    display: table-row;
+  }
+  [mod-if-screen-xl~="display-table-cell"]{
+    display: table-cell;
+  }
+  [mod-if-screen-xl~="visibility-visible"]{
+    visibility: visible;
+  }
+  [mod-if-screen-xl~="visibility-hidden"]{
+    visibility: hidden;
+  }
+  [mod-if-screen-xl~="visibility-collapse"]{
+    visibility: collapse;
+  }
+
+}
+
+/* large size */
+
+@media (max-width: 1920px){
+  
+  /* -- display -- */
+
+  [mod-if-screen-lg~="show"]{
+    display: block !important;
+  }
+  [mod-if-screen-lg~="display-block"]{
+    display: block;
+  }
+  [mod-if-screen-lg~="hide"]{
+    display: none !important;
+  }
+  [mod-if-screen-lg~="display-inline"]{
+    display: inline;
+  }
+  [mod-if-screen-lg~="display-inline-block"]{
+    display: inline-block;
+  }
+  [mod-if-screen-lg~="display-list-item"]{
+    display: list-item;
+  }
+  [mod-if-screen-lg~="display-run-in"]{
+    display: run-in;
+  }
+  [mod-if-screen-lg~="display-flex"]{
+    display: flex;
+  }
+  [mod-if-screen-lg~="display-inline-flex"]{
+    display: inline-flex;
+  }
+  [mod-if-screen-lg~="display-flex-center"]{
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  [mod-if-screen-lg~="display-table"]{
+    display: table;
+  }
+  [mod-if-screen-lg~="display-inline-table"]{
+    display: inline-table;
+  }
+  [mod-if-screen-lg~="display-table-caption"]{
+    display: table-caption;
+  }
+  [mod-if-screen-lg~="display-table-column-group"]{
+    display: table-column-group;
+  }
+  [mod-if-screen-lg~="display-table-header-group"]{
+    display: table-header-group;
+  }
+  [mod-if-screen-lg~="display-table-footer-group"]{
+    display: table-footer-group;
+  }
+  [mod-if-screen-lg~="display-table-row-group"]{
+    display: table-row-group;
+  }
+  [mod-if-screen-lg~="display-table-column"]{
+    display: table-column;
+  }
+  [mod-if-screen-lg~="display-table-row"]{
+    display: table-row;
+  }
+  [mod-if-screen-lg~="display-table-cell"]{
+    display: table-cell;
+  }
+  [mod-if-screen-lg~="visibility-visible"]{
+    visibility: visible;
+  }
+  [mod-if-screen-lg~="visibility-hidden"]{
+    visibility: hidden;
+  }
+  [mod-if-screen-lg~="visibility-collapse"]{
+    visibility: collapse;
+  }
+
+}
+
+/* medium size */
+
+@media (max-width: 1280px){
+  
+  /* -- display -- */
+
+  [mod-if-screen-md~="show"]{
+    display: block !important;
+  }
+  [mod-if-screen-md~="display-block"]{
+    display: block;
+  }
+  [mod-if-screen-md~="hide"]{
+    display: none !important;
+  }
+  [mod-if-screen-md~="display-inline"]{
+    display: inline;
+  }
+  [mod-if-screen-md~="display-inline-block"]{
+    display: inline-block;
+  }
+  [mod-if-screen-md~="display-list-item"]{
+    display: list-item;
+  }
+  [mod-if-screen-md~="display-run-in"]{
+    display: run-in;
+  }
+  [mod-if-screen-md~="display-flex"]{
+    display: flex;
+  }
+  [mod-if-screen-md~="display-inline-flex"]{
+    display: inline-flex;
+  }
+  [mod-if-screen-md~="display-flex-center"]{
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  [mod-if-screen-md~="display-table"]{
+    display: table;
+  }
+  [mod-if-screen-md~="display-inline-table"]{
+    display: inline-table;
+  }
+  [mod-if-screen-md~="display-table-caption"]{
+    display: table-caption;
+  }
+  [mod-if-screen-md~="display-table-column-group"]{
+    display: table-column-group;
+  }
+  [mod-if-screen-md~="display-table-header-group"]{
+    display: table-header-group;
+  }
+  [mod-if-screen-md~="display-table-footer-group"]{
+    display: table-footer-group;
+  }
+  [mod-if-screen-md~="display-table-row-group"]{
+    display: table-row-group;
+  }
+  [mod-if-screen-md~="display-table-column"]{
+    display: table-column;
+  }
+  [mod-if-screen-md~="display-table-row"]{
+    display: table-row;
+  }
+  [mod-if-screen-md~="display-table-cell"]{
+    display: table-cell;
+  }
+  [mod-if-screen-md~="visibility-visible"]{
+    visibility: visible;
+  }
+  [mod-if-screen-md~="visibility-hidden"]{
+    visibility: hidden;
+  }
+  [mod-if-screen-md~="visibility-collapse"]{
+    visibility: collapse;
+  }
+
+}
+
+/* small size */
+
+@media (max-width: 960px){
+  
+  /* -- display -- */
+
+  [mod-if-screen-sm~="show"]{
+    display: block !important;
+  }
+  [mod-if-screen-sm~="display-block"]{
+    display: block;
+  }
+  [mod-if-screen-sm~="hide"]{
+    display: none !important;
+  }
+  [mod-if-screen-sm~="display-inline"]{
+    display: inline;
+  }
+  [mod-if-screen-sm~="display-inline-block"]{
+    display: inline-block;
+  }
+  [mod-if-screen-sm~="display-list-item"]{
+    display: list-item;
+  }
+  [mod-if-screen-sm~="display-run-in"]{
+    display: run-in;
+  }
+  [mod-if-screen-sm~="display-flex"]{
+    display: flex;
+  }
+  [mod-if-screen-sm~="display-inline-flex"]{
+    display: inline-flex;
+  }
+  [mod-if-screen-sm~="display-flex-center"]{
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  [mod-if-screen-sm~="display-table"]{
+    display: table;
+  }
+  [mod-if-screen-sm~="display-inline-table"]{
+    display: inline-table;
+  }
+  [mod-if-screen-sm~="display-table-caption"]{
+    display: table-caption;
+  }
+  [mod-if-screen-sm~="display-table-column-group"]{
+    display: table-column-group;
+  }
+  [mod-if-screen-sm~="display-table-header-group"]{
+    display: table-header-group;
+  }
+  [mod-if-screen-sm~="display-table-footer-group"]{
+    display: table-footer-group;
+  }
+  [mod-if-screen-sm~="display-table-row-group"]{
+    display: table-row-group;
+  }
+  [mod-if-screen-sm~="display-table-column"]{
+    display: table-column;
+  }
+  [mod-if-screen-sm~="display-table-row"]{
+    display: table-row;
+  }
+  [mod-if-screen-sm~="display-table-cell"]{
+    display: table-cell;
+  }
+  [mod-if-screen-sm~="visibility-visible"]{
+    visibility: visible;
+  }
+  [mod-if-screen-sm~="visibility-hidden"]{
+    visibility: hidden;
+  }
+  [mod-if-screen-sm~="visibility-collapse"]{
+    visibility: collapse;
+  }
+
+}
+
+/* extra small xs */
+
+@media (max-width: 748px){
+
+ /* -- display -- */
+
+  [mod-if-screen-xs~="show"]{
+    display: block !important;
+  }
+  [mod-if-screen-xs~="display-block"]{
+    display: block;
+  }
+  [mod-if-screen-xs~="hide"]{
+    display: none !important;
+  }
+  [mod-if-screen-xs~="display-inline"]{
+    display: inline;
+  }
+  [mod-if-screen-xs~="display-inline-block"]{
+    display: inline-block;
+  }
+  [mod-if-screen-xs~="display-list-item"]{
+    display: list-item;
+  }
+  [mod-if-screen-xs~="display-run-in"]{
+    display: run-in;
+  }
+  [mod-if-screen-xs~="display-flex"]{
+    display: flex;
+  }
+  [mod-if-screen-xs~="display-inline-flex"]{
+    display: inline-flex;
+  }
+  [mod-if-screen-xs~="display-flex-center"]{
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  [mod-if-screen-xs~="display-table"]{
+    display: table;
+  }
+  [mod-if-screen-xs~="display-inline-table"]{
+    display: inline-table;
+  }
+  [mod-if-screen-xs~="display-table-caption"]{
+    display: table-caption;
+  }
+  [mod-if-screen-xs~="display-table-column-group"]{
+    display: table-column-group;
+  }
+  [mod-if-screen-xs~="display-table-header-group"]{
+    display: table-header-group;
+  }
+  [mod-if-screen-xs~="display-table-footer-group"]{
+    display: table-footer-group;
+  }
+  [mod-if-screen-xs~="display-table-row-group"]{
+    display: table-row-group;
+  }
+  [mod-if-screen-xs~="display-table-column"]{
+    display: table-column;
+  }
+  [mod-if-screen-xs~="display-table-row"]{
+    display: table-row;
+  }
+  [mod-if-screen-xs~="display-table-cell"]{
+    display: table-cell;
+  }
+  [mod-if-screen-xs~="visibility-visible"]{
+    visibility: visible;
+  }
+  [mod-if-screen-xs~="visibility-hidden"]{
+    visibility: hidden;
+  }
+  [mod-if-screen-xs~="visibility-collapse"]{
+    visibility: collapse;
+  }
+
+}
+
+/* extra extra small */
+
+@media (max-width: 480px){
+  
+  /* -- display -- */
+
+  [mod-if-screen-xxs~="show"]{
+    display: block !important;
+  }
+  [mod-if-screen-xxs~="display-block"]{
+    display: block;
+  }
+  [mod-if-screen-xxs~="hide"]{
+    display: none !important;
+  }
+  [mod-if-screen-xxs~="display-inline"]{
+    display: inline;
+  }
+  [mod-if-screen-xxs~="display-inline-block"]{
+    display: inline-block;
+  }
+  [mod-if-screen-xxs~="display-list-item"]{
+    display: list-item;
+  }
+  [mod-if-screen-xxs~="display-run-in"]{
+    display: run-in;
+  }
+  [mod-if-screen-xxs~="display-flex"]{
+    display: flex;
+  }
+  [mod-if-screen-xxs~="display-inline-flex"]{
+    display: inline-flex;
+  }
+  [mod-if-screen-xxs~="display-flex-center"]{
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+  [mod-if-screen-xxs~="display-table"]{
+    display: table;
+  }
+  [mod-if-screen-xxs~="display-inline-table"]{
+    display: inline-table;
+  }
+  [mod-if-screen-xxs~="display-table-caption"]{
+    display: table-caption;
+  }
+  [mod-if-screen-xxs~="display-table-column-group"]{
+    display: table-column-group;
+  }
+  [mod-if-screen-xxs~="display-table-header-group"]{
+    display: table-header-group;
+  }
+  [mod-if-screen-xxs~="display-table-footer-group"]{
+    display: table-footer-group;
+  }
+  [mod-if-screen-xxs~="display-table-row-group"]{
+    display: table-row-group;
+  }
+  [mod-if-screen-xxs~="display-table-column"]{
+    display: table-column;
+  }
+  [mod-if-screen-xxs~="display-table-row"]{
+    display: table-row;
+  }
+  [mod-if-screen-xxs~="display-table-cell"]{
+    display: table-cell;
+  }
+  [mod-if-screen-xxs~="visibility-visible"]{
+    visibility: visible;
+  }
+  [mod-if-screen-xxs~="visibility-hidden"]{
+    visibility: hidden;
+  }
+  [mod-if-screen-xxs~="visibility-collapse"]{
+    visibility: collapse;
+  }
+
+}

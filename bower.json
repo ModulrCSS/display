@@ -1,0 +1,26 @@
+{
+  "name": "modulr-display",
+  "homepage": "https://github.com/ModulrCSS/display",
+  "authors": [
+    "uloga <wpnemesis@gmail.com>"
+  ],
+  "description": "Modulr.css Display Module ( adjusts display on elements using display property )",
+  "main": "",
+  "keywords": [
+    "modulr",
+    "css3",
+    "html5",
+    "framework",
+    "boostrap",
+    "display",
+    "block"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,216 @@
+/*
+  @about Modulr.css
+  -----------------------------------------
+  @desc: Pure Css Display Module (flex grid)
+  @author: Alan Museljic
+  @git: https://www.github/com/uloga/display
+  @source: http://www.getmodulr.com/css/display
+  ------------------------------------------------
+  @uses: modulr/display/*
+  @docs: true 
+\-------------------------------------------------*/
+
+
+/* 
+  @property: display
+  @desc: shows an element
+*/
+
+[mod-display~="show"]{
+  display: block !important;
+}
+[mod-display~="block"]{
+  display: block;
+}
+
+/* 
+  @property: display
+  @desc: hides an element
+*/
+
+[mod-display~="hide"]{
+  display: none !important;
+}
+
+/* 
+  @property: display
+  @desc: display inline
+*/
+
+[mod-display~="inline"]{
+  display: inline;
+}
+
+/* 
+  @property: display
+  @desc: display inline
+*/
+
+[mod-display~="inline-block"]{
+  display: inline-block;
+}
+
+/* 
+  @property: display
+  @desc: display list
+*/
+
+[mod-display~="list-item"]{
+  display: list-item;
+}
+
+/* 
+  @property: display
+  @desc: display run-in
+*/
+
+[mod-display~="run-in"]{
+  display: run-in;
+}
+
+/* 
+  @property: display
+  @desc: display flex
+*/
+
+[mod-display~="flex"]{
+  display: flex;
+}
+
+/* 
+  @property: display
+  @desc: display inline-flex
+*/
+
+[mod-display~="inline-flex"]{
+  display: inline-flex;
+}
+
+/* 
+  @property: display
+  @desc: display flex-center
+*/
+
+[mod-display~="flex-center"]{
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+/* 
+  @property: display
+  @desc: display table
+*/
+
+[mod-display~="table"]{
+  display: table;
+}
+
+/* 
+  @property: display
+  @desc: display inline-table
+*/
+
+[mod-display~="inline-table"]{
+  display: inline-table;
+}
+
+/* 
+  @property: display
+  @desc: display table-caption
+*/
+
+[mod-display~="table-caption"]{
+  display: table-caption;
+}
+
+/* 
+  @property: display
+  @desc: display table-column-group
+*/
+
+[mod-display~="table-column-group"]{
+  display: table-column-group;
+}
+
+/* 
+  @property: display
+  @desc: display table-header-group
+*/
+
+[mod-display~="table-header-group"]{
+  display: table-header-group;
+}
+
+/* 
+  @property: display
+  @desc: display table-footer-group
+*/
+
+[mod-display~="table-footer-group"]{
+  display: table-footer-group;
+}
+
+/* 
+  @property: display
+  @desc: display table-row-group
+*/
+
+[mod-display~="table-row-group"]{
+  display: table-row-group;
+}
+
+/* 
+  @property: display
+  @desc: display table-column
+*/
+
+[mod-display~="table-column"]{
+  display: table-column;
+}
+
+/* 
+  @property: display
+  @desc: display table-row
+*/
+
+[mod-display~="table-row"]{
+  display: table-row;
+}
+
+/* 
+  @property: display
+  @desc: display table-cell
+*/
+
+[mod-display~="table-cell"]{
+  display: table-cell;
+}
+
+/* 
+  @property: visibility
+  @desc: visibility visible
+*/
+
+[mod-visibility~="visible"]{
+  visibility: visible;
+}
+
+/* 
+  @property: visibility
+  @desc: visibility hidden
+*/
+
+[mod-visibility~="hidden"]{
+  visibility: hidden;
+}
+
+/* 
+  @property: visibility
+  @desc: visibility collapse
+*/
+
+[mod-visibility~="collapse"]{
+  visibility: collapse;
+}
